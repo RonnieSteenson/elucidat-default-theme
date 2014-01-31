@@ -1,8 +1,4 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": true
-	},
 	"#introduction_text": {
 		"text": true
 	},

@@ -1,11 +1,4 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": {
-			"show-placeholder": false
-		},
-		"add-option": true
-	},
 	".text_caption": {
 		"animation": true,
 		"image": {

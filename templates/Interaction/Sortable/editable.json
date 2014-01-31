@@ -1,16 +1,4 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": {
-			"show-placeholder": false
-		}
-	},
-	"#text_before": {
-		"text": {
-			"html": true
-		},
-		"inset":true
-	},
 	"#sort_menu": {
 		"add-option": {
 			"button-position": "underneath"
@@ -32,6 +20,9 @@
 		"border": true,
 		"color": true,
 		"invert": true
+	},
+	".sortable_item span": {
+		"text": true
 	},
 	"#save_button": {
 		"animation":true,

@@ -1,10 +1,42 @@
 {
 	"body": {
-		"font":{
-			"family":true
+		"font":true,
+		"image": true,
+		"animation": true
+	},
+	"#client_logo": {
+		"image": true,
+		"resize": true
+	},
+	"#project_header": {
+		"inset": true,
+		"border": {
+			"padding": true
+		},
+		"resize": {
+			"resize-height": true
 		}
 	},
+	"#page_title": {
+		"color": true,
+		"border": true
+	},
+	"#footer_navigation": {
+		"color": true
+	},
 	"h1": {
+		"text": true,
+		"font": {
+			"size": true
+		}
+	},
+	"#menu_toggle_text": {
+		"text": true
+	},
+	"#resource_toggle_text": {
+		"text": true
+	},
+	"#help_toggle_text": {
 		"text": true
 	},
 	"#helpContentLabel": {
@@ -31,5 +63,24 @@
 			"show-placeholder": false
 		},
 		"inset": true
+	},
+	".content_wrapper": {
+		"color": true,
+		"border": {
+			"rounding": true
+		},
+		"image": {
+			"act-on": ".content_wrapper_inner",
+			"show-placeholder": false
+		}
+	},
+	".text_wrapper": {
+		"text": {
+			"html": true
+		},
+		"resize": {
+			"resize-width": true
+		},
+		"inset":true
 	}
 }

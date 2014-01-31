@@ -1,17 +1,4 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": {
-			"show-placeholder": false
-		},
-		"add-option": true
-	},
-	"#text_before": {
-		"text": {
-			"html": true
-		},
-		"inset":true
-	},
 	".hotspot": {
 		"resize": true,
 		"color": true,

@@ -1,16 +1,4 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": {
-			"show-placeholder": false
-		}
-	},
-	"#text_before": {
-		"text": {
-			"html": true
-		},
-		"inset":true
-	},
 	".tabbable": {
 		"add-option": {
 			"button-position": "underneath"

@@ -9,12 +9,11 @@ a:focus {
 	outline:none;
 }
 h1, h2, h3, h4 {
-	text-transform: uppercase;
 }
 
 #body {
-	background-color: #c7d2da;
-	background-image:url(images/background.gif);
+	background-color: #496e9b;
+	background-image:url(images/clouds.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:#222;
@@ -25,22 +24,14 @@ h1, h2, h3, h4 {
 	height:65px;
 	position: relative;
 }
-#project_title {
-	width: 190px;
-	height: 34px;
+#client_logo {
+	width: 200px;
+	height: 45px;
 	padding-top: 15px;
 	padding-left: 15px;
-	text-indent: -4000px;
-	background-image:url(images/logo_72.png);
-	background-position: 100% 100%;
+	background-image:url(images/logo.png);
+	background-size: contain;
 	background-repeat: no-repeat;
-}
-#edu_only {
-	position: absolute;
-	right: 15px;
-	top: 12px;
-	text-transform: uppercase;
-	color: #7a8f9d;
 }
 
 /* page content container */
@@ -52,21 +43,20 @@ h1, h2, h3, h4 {
 }
 
 #page_content {
-	padding-bottom:65px;
+	padding-bottom:70px;
 }
 
 #page_content .content_wrapper {
 	min-height: 480px;
 	position: relative;
 }
-#page_outside {
+.content_wrapper {
 	background: rgb(255,255,255); /* Old browsers */
-	background: rgba(255,255,255,0.85); /* Old browsers */
+	background: rgba(255,255,255,0.8); /* Old browsers */
 }
-
 #page_title {
 	height: 34px;
-	border-bottom:1px solid #e95e27;
+	margin-bottom: 2px;
 
 	background: rgb(255,255,255); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -100,7 +90,6 @@ h1, h2, h3, h4 {
 /* footer */
 
 #footer_navigation {
-	text-transform: uppercase;
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
@@ -197,18 +186,22 @@ h1, h2, h3, h4 {
 	color:#102d48;
 	text-decoration: none;
 }
-#help_buttons a i {
+#help_buttons a i.icon-theme {
 	background-image:url(images/icons-all.png);
 	background-position: -10px -10px;
     background-repeat: no-repeat;
     height: 24px;
     width: 24px;
+    display: inline-block;
 }
 #help_buttons a i.icon-file {
 	background-position: -51px -10px;
 }
 #help_buttons a i.icon-info {
 	background-position: -90px -10px;
+}
+#help_buttons a span {
+    display: inline-block;
 }
 
 /* toggle page menu */
@@ -219,18 +212,18 @@ h1, h2, h3, h4 {
 	width:425px;
 	height:100%;
 	top:0px;
-	left:-427px;
+	left:-440px;
 	
 	background: #b6c4ce; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I2YzRjZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZWQ4ZGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  #b6c4ce 0%, #ced8df 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6c4ce), color-stop(100%,#ced8df)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b6c4ce 0%,#ced8df 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b6c4ce 0%,#ced8df 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b6c4ce 0%,#ced8df 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #b6c4ce 0%,#ced8df 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6c4ce', endColorstr='#ced8df',GradientType=0 ); /* IE6-8 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, #ced8df 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.9)), color-stop(100%,#ced8df)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,#ced8df 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 0%,#ced8df 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 0%,#ced8df 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,#ced8df 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ced8df',GradientType=0 ); /* IE6-8 */
 
 
 	border-right:2px solid #e95e27;
@@ -256,7 +249,6 @@ h1, h2, h3, h4 {
 }
 
 #project_navigation ul {
-	text-transform: uppercase;
 	list-style: none outside none;
 	margin:0;
 	padding:16px 20px 20px 20px;
@@ -419,6 +411,12 @@ form.questionnaire, form.sortable {
 	font-size: 1.2em;
 	line-height: 22px;
 }
+.sortable_item span {
+	display: inline-block;
+}
+.sortable_item i.icon-resize-vertical {
+	margin-top: 3px;
+}
 .answer span.input {
 	position: absolute;
 	left:6px;
@@ -454,13 +452,12 @@ form.questionnaire, form.sortable {
 	display: inline-block;
 
 	margin-top: 15px;
-	padding-top: 10px;
-	width: 105px;
+	padding: 10px 20px 0;
+	width: auto;
 	height: 31px;
 	border-radius: 25px;
 	text-align: center;
 	color: #fff;
-	text-transform: uppercase;
 	text-decoration: none;
 
 	-webkit-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
@@ -533,12 +530,12 @@ form.questionnaire, form.sortable {
     background: rgb(248,250,250); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjN2QyZGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  rgba(248,250,250,0.85) 0%, rgba(199,210,219,0.85) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,250,250,0.85)), color-stop(100%,rgba(199,210,219,0.85))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(248,250,250,0.85) 0%,rgba(199,210,219,0.85) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(248,250,250,0.85) 0%,rgba(199,210,219,0.85) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(248,250,250,0.85) 0%,rgba(199,210,219,0.85) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(248,250,250,0.85) 0%,rgba(199,210,219,0.85) 100%); /* W3C */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.85) 0%, rgba(199,210,219,0.85) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.85)), color-stop(100%,rgba(199,210,219,0.85))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.85) 0%,rgba(199,210,219,0.85) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.85) 0%,rgba(199,210,219,0.85) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.85) 0%,rgba(199,210,219,0.85) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.85) 0%,rgba(199,210,219,0.85) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fafa', endColorstr='#c7d2db',GradientType=0 ); /* IE6-8 */
 
 	-webkit-transition: opacity 0.25s ease-in-out 0s;
@@ -622,6 +619,9 @@ form.questionnaire, form.sortable {
 		margin: 0 0;
 		width: 100%;
 	}
+	#project_header {
+		padding-left: 10px;
+	}
 	#help_buttons {
 		left: 15px;
 	}
@@ -651,7 +651,7 @@ form.questionnaire, form.sortable {
 @media (max-width: 480px) {
 	/*body:before { content: "Rule: max-width: 480px; "; }*/
 	.answer {    
-		width: 255px;
+		width: 235px;
 	}
 	.modal-container {
 		top:0px;
