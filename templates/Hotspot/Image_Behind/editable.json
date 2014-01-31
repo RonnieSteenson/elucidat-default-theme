@@ -1,0 +1,49 @@
+{
+	".content_wrapper": {
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"add-option": true
+	},
+	"#text_before": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	},
+	".hotspot": {
+		"resize": true,
+		"color": true,
+		"image": {
+			"show-placeholder":false
+		},
+		"delete": true,
+		"move": true,
+		"border": {
+			"rounding": true,
+			"padding": false
+		}
+	},
+	".modal-inner": {
+		"image": {
+			"show-placeholder": false
+		},
+		"inset": true
+	},
+	".popup_text": {
+		"text": {
+			"html": true
+		},
+		"resize": true
+	},
+	".modal-inner h3": {
+		"text": true
+	},
+	".continue_button": {
+		"text": true
+	},
+	".video_player": {
+		"video": true
+	}
+}

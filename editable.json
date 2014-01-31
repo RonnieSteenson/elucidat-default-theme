@@ -1,0 +1,35 @@
+{
+	"body": {
+		"font":{
+			"family":true
+		}
+	},
+	"h1": {
+		"text": true
+	},
+	"#helpContentLabel": {
+		"text": true
+	},
+	"#help_content": {
+		"text": {
+			"html": true
+		}
+	},
+	"#resourceContentLabel": {
+		"text": true
+	},
+	"#resource_content": {
+		"text": {
+			"html": true
+		}
+	},
+	".continue_button": {
+		"text": true
+	},
+	".modal-inner": {
+		"image": {
+			"show-placeholder": false
+		},
+		"inset": true
+	}
+}

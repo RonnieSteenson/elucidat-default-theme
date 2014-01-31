@@ -1,0 +1,32 @@
+{
+	".content_wrapper": {
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"add-option": true
+	},
+	".text_caption": {
+		"animation": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"delete": true,
+		"resize": {
+			"resize-peers": "notpositioned"
+		},
+		"move": true,
+		"color": true,
+		"border": true,
+		"font": {
+			"size": true,
+			"family":false
+		}
+	},
+	".text": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	}
+}

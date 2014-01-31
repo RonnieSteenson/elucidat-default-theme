@@ -1,0 +1,62 @@
+{
+	".content_wrapper": {
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		}
+	},
+	"#text_before": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	},
+	"#sort_menu": {
+		"add-option": {
+			"button-position": "underneath"
+		}
+	},
+	".sortable_item": {
+		"animation": true,
+		"delete": true,
+		"resize": {
+			"resize-width": true,
+			"resize-peers": true
+		},
+		"font": {
+			"size":true
+		},
+		"image": {
+			"show-placeholder": false
+		},
+		"border": true,
+		"color": true,
+		"invert": true
+	},
+	"#save_button": {
+		"animation":true,
+		"text": true
+	},
+	".answer label": {
+		"text": true
+	},
+	".modal-inner": {
+		"image": {
+			"show-placeholder": false
+		},
+		"inset": true
+	},
+	".popup_text": {
+		"text": {
+			"html": true
+		},
+		"resize": true
+	},
+	".modal-inner h3": {
+		"text": true
+	},
+	".continue_button": {
+		"text": true
+	}
+
+}

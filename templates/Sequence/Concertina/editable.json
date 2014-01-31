@@ -1,0 +1,50 @@
+{
+	".content_wrapper": {
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		}
+	},
+	"#text_before": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	},
+	"#accordion": {
+		"add-option": {
+			"button-position": "underneath"
+		}
+	},
+	".accordion-group": {
+		"delete": true
+	},
+	".accordion-toggle":{
+		"animation":true,
+		"text":true,
+		"inset":true,
+		"color":true,
+		"font":{
+			"size": true,
+			"family": false
+		}
+	},
+	".accordion-inner": {
+		"image": {
+			"show-placeholder": false
+		},
+		"color":true,
+		"resize": {
+			"resize-height": true
+		},
+		"inset": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		},
+		"resize": {
+			"resize-width": true
+		}
+	}
+}

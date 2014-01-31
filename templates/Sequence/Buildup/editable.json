@@ -1,0 +1,72 @@
+{
+	".content_wrapper": {
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		}
+	},
+	"#text_before": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	},
+	"#buildup": {
+		"add-option": true
+	},
+	".build-up-follow-on": {
+		"delete": true,
+		"resize": {
+			"resize-peers": true,
+			"resize-width": true
+		},
+		"border": {
+			"rounding": true
+		},
+		"color": true
+	},
+	"#buildup_1": {
+		"resize": {
+			"resize-peers": true,
+			"resize-width": true
+		},
+		"border": {
+			"rounding": true
+		},
+		"color": true
+	},
+	".buildup_inner": {
+		"image": {
+			"show-placeholder":false
+		},
+		"resize": {
+			"resize-peers": true,
+			"resize-height": true
+		},
+		"border": {
+			"padding": true
+		},
+		"inset": true,
+		"font": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	},
+	"#text_after": {
+		"text": {
+			"html": true
+		},
+		"border": {
+			"padding": true
+		},
+		"resize": true,
+		"inset":true,
+		"image": {
+			"show-placeholder": false
+		},
+		"delete": true
+	}
+}

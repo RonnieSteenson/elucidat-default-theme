@@ -1,0 +1,36 @@
+{
+	"#carousel": {
+		"add-option": true
+	},
+	".item": {
+		"delete": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"resize": {
+			"resize-height":true
+		},
+		"color": true,
+		"inset": true
+	},
+	".carousel_caption": {
+		"animation": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"delete": true,
+		"resize": true,
+		"move": true,
+		"color": true,
+		"border": true,
+		"font": {
+			"size": true,
+			"family":false
+		}
+	},
+	".carousel_text": {
+		"text": {
+			"html": true
+		}
+	}
+}

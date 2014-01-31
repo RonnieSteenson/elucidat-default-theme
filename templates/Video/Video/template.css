@@ -1,0 +1,32 @@
+
+#text_before {
+}
+#video_wrapper {
+	height: 360px;
+    width: 640px;
+	border: 10px solid #e5e9f1;
+}
+#video {
+    width:640px;
+    height:360px;
+	background-color:#000;
+}
+div.video_player {
+	margin-top:0;
+}
+#transcript_link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#transcript_link a {
+    display:inline-block;
+	color:#1c568b;
+}
+@media (max-width: 767px) { 
+
+    #video, #video_wrapper {
+        width: inherit;
+        height: 300px;
+    }
+}

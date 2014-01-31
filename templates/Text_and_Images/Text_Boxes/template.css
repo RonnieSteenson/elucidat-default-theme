@@ -1,0 +1,22 @@
+
+.content_wrapper {
+    padding:10px;
+}
+.text_caption {
+    width:50%;
+
+}
+
+@media (max-width: 767px) { 
+    /*body:before { content: "Rule: max-width: 767px; "; }*/
+    .text_caption {
+        width:60%;
+    }
+}
+
+@media (max-width: 480px) {
+    /*body:before { content: "Rule: max-width: 480px; "; }*/
+    .text_caption {
+        width:90%;
+    }
+}

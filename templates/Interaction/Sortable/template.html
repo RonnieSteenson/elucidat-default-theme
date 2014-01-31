@@ -1,0 +1,81 @@
+
+            <div class="content_wrapper clearfix" id="content_wrapper">
+
+                <div class="text_wrapper" id="text_before">
+                    <p>This questionnaire template allows you to assess how the learner is getting on.</p>
+                </div>
+                
+                <form class="sortable" id="sortable_form">
+
+                    <ol id="sort_menu" class="sortable_inner">
+                        <div class="add-option-template hide">
+                            <li class="sortable_item" id="sortable_{id}">Option {number}</li>
+                        </div>
+                        <li class="sortable_item" id="sortable_1">Option 1</li>
+                        <li class="sortable_item" id="sortable_2">Option 2</li>
+                        <li class="sortable_item" id="sortable_3">Option 3</li>
+                    </ol>
+
+                    <div class="button_holder">
+                        <a class="save_button" id="save_button">Submit</a>
+                    </div>
+
+                    <div id="correct" data-backdrop="false" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
+                        <div class="modal-container">
+                            <div class="modal-outer">
+                                <div class="modal-inner">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                    <h3 id="correct_label">Correct!</h3>
+                                
+                                    <div class="popup_text" id="correct_text">
+                                        <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                                    </div>
+
+                                    <a href="{next.url}" id="correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="incorrect" data-backdrop="false" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="incorrect_label" aria-hidden="true">
+                        <div class="modal-container">
+                            <div class="modal-outer">
+                                <div class="modal-inner">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                    <h3 id="incorrect_label">Wrong!</h3>
+
+                                    <div class="popup_text" id="incorrect_text">
+                                        <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                                    </div>
+
+                                    <a href="{next.url}" id="incorrect_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="partially_correct" data-backdrop="false" class="modal hide fade answered_partially_correct" tabindex="-1" role="dialog" aria-labelledby="partially_correct_label" aria-hidden="true">
+                        <div class="modal-container">
+                            <div class="modal-outer">
+                                <div class="modal-inner">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                    <h3 id="partially_correct_label">Partially Correct!</h3>
+
+                                    <div class="popup_text" id="partially_wrong_text">
+                                        <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                                    </div>
+
+                                    <a href="{next.url}" id="partially_correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </div>

@@ -1,0 +1,38 @@
+
+
+a.hotspot {
+    position:absolute;
+
+    left: 70%;
+    top: 40%;
+
+    width:45px;
+    height:47px;
+    
+    background-image: url(images/hotspot.png);
+
+    cursor: pointer;
+    text-decoration: none;
+
+    /*
+     -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    */
+}
+a.hotspot:hover {
+    opacity:1;
+}
+
+a.hotspot span.title {
+    text-indent: -5000px;
+    display: block;
+}
+#hotspot1 {
+    left: 60%;
+    top: 20%;
+}
+
+#hotspot2 {
+    left: 65%;
+    top: 30%;
+}
