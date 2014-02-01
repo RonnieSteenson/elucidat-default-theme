@@ -14,19 +14,9 @@
 
 }
 
-#leaf {
-    width: 169px;
-    height: 127px;
-    padding-top: 170px;
-    padding-left:100px;
-    background-image: url(images/leaf_small.png);
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    float:left;
-}
-
 #intro {
-    width: 550px;
+
+    width: 80%;
     height: 127px;
     padding-top: 190px;
     padding-left:20px;
@@ -49,11 +39,9 @@
 }
 
 @media (max-width: 979px) { 
-    #leaf {
-        padding-left:50px;
-    }
     #intro {
-        width: 450px;
+        width: auto;
+        padding-right: 20px;
     }
     #intro h2 span {
         display: block;
@@ -62,13 +50,8 @@
 
 @media (max-width: 767px) { 
     /*body:before { content: "Rule: max-width: 767px; "; }*/
-    #leaf {
-        padding-top: 75px;
-        padding-left:15px;
-    }
     #intro {
-        padding-top: 15px;
-        width: auto;
+        padding-top: 55px;
         clear:both;
     }
 }

@@ -1,4 +1,7 @@
 {
+	".content_wrapper_inner": {
+		"add-option": true
+	},
 	".text_caption": {
 		"animation": true,
 		"image": {

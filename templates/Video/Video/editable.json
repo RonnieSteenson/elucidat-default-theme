@@ -1,20 +1,8 @@
 {
-	".content_wrapper": {
-		"color": true,
-		"image": {
-			"show-placeholder": false
-		}
-	},
 	"#video": {
 		"video": true,
 		"inset": true,
 		"invert": true
-	},
-	"#text_before": {
-		"text": {
-			"html": true
-		},
-		"inset": true
 	},
 	"#transcript_link": {
 		"delete": true,

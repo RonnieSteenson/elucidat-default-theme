@@ -11,6 +11,8 @@
 	float:left;
 	margin-right:15px;
 	margin-bottom:20px;
+	font-weight: bold;
+	font-size: 1.2em;
 
 	width:250px;
 
@@ -81,8 +83,9 @@
 	}
 	.buildup-item a.next {
 		top: auto;
-		right: auto;
-		position: relative;
+		right: 0px;
+		position: absolute;
+		margin-top: -15px;
 	}
 
 }

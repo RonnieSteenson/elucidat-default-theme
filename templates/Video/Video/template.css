@@ -14,14 +14,15 @@
 div.video_player {
 	margin-top:0;
 }
-#transcript_link {
+.transcript_container {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
-#transcript_link a {
+#transcript_link  {
     display:inline-block;
 	color:#1c568b;
+    padding: 0 10px;
 }
 @media (max-width: 767px) { 
 

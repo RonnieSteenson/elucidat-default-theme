@@ -2,6 +2,7 @@
 	"body": {
 		"font":true,
 		"image": true,
+		"color": true,
 		"animation": true
 	},
 	"#client_logo": {
@@ -12,9 +13,6 @@
 		"inset": true,
 		"border": {
 			"padding": true
-		},
-		"resize": {
-			"resize-height": true
 		}
 	},
 	"#page_title": {
@@ -78,6 +76,8 @@
 		"text": {
 			"html": true
 		},
+		"border": true,
+		"color": true,
 		"resize": {
 			"resize-width": true
 		},

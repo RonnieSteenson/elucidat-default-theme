@@ -35,26 +35,11 @@
 			"padding": true
 		},
 		"inset": true,
-		"font": true
+		"font": {
+			"size": true
+		}
 	},
 	".text_content": {
-		"text": {
-			"html": true
-		},
-		"inset": true
-	},
-	"#text_after": {
-		"text": {
-			"html": true
-		},
-		"border": {
-			"padding": true
-		},
-		"resize": true,
-		"inset":true,
-		"image": {
-			"show-placeholder": false
-		},
-		"delete": true
-	}
+		"text": true
+	}	
 }
