@@ -8,6 +8,10 @@
 			"resize-peers": true,
 			"resize-width": true
 		},
+		"image": {
+			"act-on": ".buildup_inner",
+			"show-placeholder":false
+		},
 		"border": {
 			"rounding": true
 		},
@@ -21,12 +25,13 @@
 		"border": {
 			"rounding": true
 		},
-		"color": true
-	},
-	".buildup_inner": {
 		"image": {
+			"act-on": ".buildup_inner",
 			"show-placeholder":false
 		},
+		"color": true
+	},
+	".text_content": {
 		"resize": {
 			"resize-peers": true,
 			"resize-height": true
@@ -34,12 +39,10 @@
 		"border": {
 			"padding": true
 		},
-		"inset": true,
+		"text": true,
 		"font": {
 			"size": true
-		}
-	},
-	".text_content": {
-		"text": true
+		},
+		"inset": true
 	}	
 }

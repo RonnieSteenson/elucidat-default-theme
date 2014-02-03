@@ -5,6 +5,7 @@
 	".item": {
 		"delete": true,
 		"image": {
+			"act-on": ".item_inner",
 			"show-placeholder": false
 		},
 		"resize": {

@@ -12,8 +12,8 @@ h1, h2, h3, h4 {
 }
 
 #body {
-	background-color: #496e9b;
-	background-image:url(images/clouds.jpg);
+	background-color: #d5d9da;
+	background-image:url(images/notepad.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:#222;
@@ -55,6 +55,10 @@ h1, h2, h3, h4 {
 	background: rgb(255,255,255); /* Old browsers */
 	background: rgba(255,255,255,0.8); /* Old browsers */
 }
+.content_wrapper_inner {
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
 #page_title {
 	margin-bottom: 2px;
 
@@ -71,6 +75,7 @@ h1, h2, h3, h4 {
 
     padding-left: 15px;
     padding-top: 7px;
+    padding-bottom: 1px;
 }
 
 #page_title h1 {

@@ -1,10 +1,11 @@
 
-.content_wrapper {
-    padding:10px;
-}
 .text_caption {
     width:50%;
 
+}
+
+.content_wrapper_inner {
+    background-image: url(images/eLearningart_Lisa_aha.png);
 }
 
 @media (max-width: 767px) { 
