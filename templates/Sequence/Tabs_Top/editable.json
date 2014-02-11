@@ -13,10 +13,12 @@
 	},
 	".tab-pane": {
 		"image": {
+			"act-on": ".tab-inner",
 			"show-placeholder": false
 		},
 		"color":true,
 		"resize": {
+			"act-on": ".tab-inner",
 			"resize-height": true
 		},
 		"inset": true
@@ -25,6 +27,14 @@
 		"text": {
 			"html": true
 		},
-		"resize": true
+		"resize": {
+			"resize-width": true
+		},
+		"color": true,
+		"border": true,
+		"font": {
+			"size": true,
+			"family":false
+		}
 	}
 }

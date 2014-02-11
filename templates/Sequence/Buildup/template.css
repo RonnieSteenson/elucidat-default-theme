@@ -61,20 +61,16 @@
 }
 
 .buildup-item a.next {
-	background-image:url(images/icons-all.png);
-	background-position: -521px 0px;
-    background-repeat: no-repeat;
-	text-indent: -5000px;
 	display:block;
 	width:40px;
 	height:40px;
 	position: absolute;
     right: -31px;
     top:40px;
-	
+	font-size: 2em;
 }
 .buildup-item a.next:hover {
-	background-position: -520px 0px;
+	text-indent: 2px;
 }
 .buildup-item:last-of-type a.next, .buildup-item a.shown {
 	display:none;

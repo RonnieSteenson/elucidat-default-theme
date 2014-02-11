@@ -5,10 +5,6 @@
 	"#intro p": {
 		"text": true
 	},
-	"#leaf": {
-		"animation": true,
-		"inset": true
-	},
 	"#intro": {
 		"animation": true,
 		"inset": true

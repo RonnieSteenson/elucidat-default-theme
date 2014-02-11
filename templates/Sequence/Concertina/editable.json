@@ -5,13 +5,13 @@
 		}
 	},
 	".accordion-group": {
-		"delete": true
+		"delete": true,
+		"color":true,
+		"animation":true
 	},
 	".accordion-toggle":{
-		"animation":true,
 		"text":true,
 		"inset":true,
-		"color":true,
 		"font":{
 			"size": true,
 			"family": false
@@ -19,7 +19,8 @@
 	},
 	".accordion-inner": {
 		"image": {
-			"show-placeholder": false
+			"show-placeholder": false,
+			"act-on": ".accordion-image"
 		},
 		"color":true,
 		"resize": {
@@ -33,6 +34,12 @@
 		},
 		"resize": {
 			"resize-width": true
+		},
+		"color": true,
+		"border": true,
+		"font": {
+			"size": true,
+			"family":false
 		}
 	}
 }

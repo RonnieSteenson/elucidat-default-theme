@@ -21,7 +21,7 @@
 		"color": true,
 		"invert": true
 	},
-	".sortable_item span": {
+	".sortable_item span.text": {
 		"text": true
 	},
 	"#save_button": {
@@ -29,24 +29,6 @@
 		"text": true
 	},
 	".answer label": {
-		"text": true
-	},
-	".modal-inner": {
-		"image": {
-			"show-placeholder": false
-		},
-		"inset": true
-	},
-	".popup_text": {
-		"text": {
-			"html": true
-		},
-		"resize": true
-	},
-	".modal-inner h3": {
-		"text": true
-	},
-	".continue_button": {
 		"text": true
 	}
 

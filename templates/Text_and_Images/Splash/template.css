@@ -12,30 +12,25 @@
     background: linear-gradient(to bottom,  rgba(89,136,175,0.85) 0%,rgba(37,91,142,0.85) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5988af', endColorstr='#255b8e',GradientType=0 ); /* IE6-8 */
 
+    color: #fff;
 }
 
 #intro {
 
     width: 80%;
     height: 127px;
-    padding-top: 190px;
+    padding-top: 180px;
     padding-left:20px;
-    float:left;
-    color: #000;
 }
 
 #intro h2 {
-    font-size:32px;
-    line-height: 34px;
+    font-size:3em;
+    line-height: 1em;
     font-weight: normal;
-}
-#intro h2 span {
-    color: #fff;
 }
 
 
 #intro p {
-    color: #fff;
 }
 
 @media (max-width: 979px) { 

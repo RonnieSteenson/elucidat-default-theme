@@ -5,7 +5,6 @@
                 <div class="text_wrapper add-option-ignore" id="text_before">
                     <p>This hotspot template allows a Learner to explore an image.</p>
                     <p>It would be a good idea to explain how to use the template here.</p>
-                    <p><small>Image credit: <a href="http://www.hubspot.com" target="_blank">Hubspot.com</a></small></p>
                 </div>
                     
                 <div class="add-option-template hide" data-parent="#hotspot_wrapper">
@@ -15,14 +14,14 @@
                 <div class="add-option-template hide" data-parent="#hotspot_modal_wrapper">
 
                     <div id="hotspot_modal_{id}" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_{id}_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="hotspot_modal_container_{id}">
+                            <div class="modal-outer" id="hotspot_modal_inner_{id}">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="hotspot_modal_{id}_label">Hotspot {number} title!</h3>
                                 
                                     <div class="modal_text">
-                                        <div class="popup_text" id="hotspot_modal_{id}_text">
+                                        <div class="modal_text" id="hotspot_modal_{id}_text">
                                             <p><strong>This is an ideal place</strong> to give some helpful information. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                         </div>
 
@@ -44,14 +43,14 @@
                 <div id="hotspot_modal_wrapper" class="add-option-ignore">
 
                     <div id="hotspot_modal_1" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_1_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="hotspot_modal_container_1">
+                            <div class="modal-outer" id="hotspot_modal_inner_1">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="hotspot_modal_1_label">Hotspot 1 title!</h3>
                                 
                                     <div class="modal_text">
-                                        <div class="popup_text" id="hotspot_modal_1_text">
+                                        <div class="modal_text" id="hotspot_modal_1_text">
                                             <p><strong>This is an ideal place</strong> to give some helpful information. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                         </div>
 
@@ -65,14 +64,14 @@
                     </div>
 
                     <div id="hotspot_modal_2" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_2_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="hotspot_modal_container_2">
+                            <div class="modal-outer" id="hotspot_modal_inner_2">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="hotspot_modal_2_label">Hotspot 2 title!</h3>
                                 
                                     <div class="modal_text">
-                                        <div class="popup_text" id="hotspot_modal_2_text">
+                                        <div class="modal_text" id="hotspot_modal_2_text">
                                             <p><strong>This is an ideal place</strong> to give some helpful information. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                         </div>
 
@@ -86,6 +85,9 @@
                     </div>
 
                 </div>
+
+            
+                <div class="image_credit" id="image_credit_inner"><a href="http://www.hubspot.com/" title="Image by hubspot.com" target="_blank">Image by Hubspot</a></div>
 
             </div>
         </div>

@@ -4,18 +4,29 @@
 
                 <div class="text_wrapper" id="text_before">
                     <p>This sortable test template allows you to assess how the learner is getting on.</p>
-                    <p><small>Image credit: <a href="http://www.elearningart.com" target="_blank">elearningart.com</a></small></p>
                 </div>
                 
                 <form class="sortable" id="sortable_form">
 
                     <ol id="sort_menu" class="sortable_inner">
                         <div class="add-option-template hide">
-                            <li class="sortable_item" id="sortable_{id}"><i class="icon-resize-vertical"></i> <span id="sortable_1_{id}">Option {number}</span></li>
+                            <li class="sortable_item" id="sortable_{id}">
+                                <span class="input"><i class="theme-icon-up-open"></i><i class="theme-icon-down-open"></i></span> 
+                                <span class="text" id="sortable_{id}_text">Option {number}</span>
+                            </li>
                         </div>
-                        <li class="sortable_item" id="sortable_1"><i class="icon-resize-vertical"></i> <span id="sortable_1_text">Option 1</span></li>
-                        <li class="sortable_item" id="sortable_2"><i class="icon-resize-vertical"></i> <span id="sortable_2_text">Option 2</span></li>
-                        <li class="sortable_item" id="sortable_3"><i class="icon-resize-vertical"></i> <span id="sortable_3_text">Option 3</span></li>
+                        <li class="sortable_item" id="sortable_1">
+                            <span class="input"><i class="theme-icon-up-open"></i><i class="theme-icon-down-open"></i></span> 
+                            <span class="text" id="sortable_1_text">Option 1</span>
+                        </li>
+                        <li class="sortable_item" id="sortable_2">
+                            <span class="input"><i class="theme-icon-up-open"></i><i class="theme-icon-down-open"></i></span> 
+                            <span class="text" id="sortable_2_text">Option 2</span>
+                        </li>
+                        <li class="sortable_item" id="sortable_3">
+                            <span class="input"><i class="theme-icon-up-open"></i><i class="theme-icon-down-open"></i></span> 
+                            <span class="text" id="sortable_3_text">Option 3</span>
+                        </li>
                     </ol>
 
                     <div class="button_holder">
@@ -23,13 +34,13 @@
                     </div>
 
                     <div id="correct" data-backdrop="false" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="correct_container">
+                            <div class="modal-outer" id="correct_inner">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="correct_label">Correct!</h3>
                                 
-                                    <div class="popup_text" id="correct_text">
+                                    <div class="modal_text" id="correct_text">
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
@@ -41,13 +52,13 @@
                     </div>
 
                     <div id="incorrect" data-backdrop="false" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="incorrect_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="incorrect_container">
+                            <div class="modal-outer" id="incorrect_inner">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="incorrect_label">Wrong!</h3>
 
-                                    <div class="popup_text" id="incorrect_text">
+                                    <div class="modal_text" id="incorrect_text">
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
@@ -61,13 +72,13 @@
                     </div>
 
                     <div id="partially_correct" data-backdrop="false" class="modal hide fade answered_partially_correct" tabindex="-1" role="dialog" aria-labelledby="partially_correct_label" aria-hidden="true">
-                        <div class="modal-container">
-                            <div class="modal-outer">
+                        <div class="modal-container" id="partially_correct_container">
+                            <div class="modal-outer" id="partially_correct_outer">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                                     <h3 id="partially_correct_label">Partially Correct!</h3>
 
-                                    <div class="popup_text" id="partially_wrong_text">
+                                    <div class="modal_text" id="partially_wrong_text">
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
@@ -79,6 +90,9 @@
                             </div>
                         </div>
                     </div>
+                    
                 </form>
+
+                <div class="image_credit" id="image_credit_inner"><a href="http://www.elearningart.com/" title="Image by elearningart.com" target="_blank">Image by elearningart.com</a></div>
         </div>
     </div>

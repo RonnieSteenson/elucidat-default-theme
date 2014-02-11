@@ -2,28 +2,33 @@
 .text_content {
 	width: 60%;
 }
-.tab_padding {
-	padding: 0 35px 35px;
+@media (max-width: 767px) { 
+	.text_content {
+		width: 80%;
+	}
 }
 
+
+ul.nav {
+	margin-bottom: 0px;
+}
 .tabbable .nav-tabs li a {
 	margin-right: 6px;
 	margin-bottom: 0;
-	border-radius:  10px 10px 0 0;
-	padding: 10px 15px 9px;
+	border-radius:  15px;
+	padding: 9px 15px 6px;
 	min-height:21px;
 }
 .tabbable .nav-tabs li.active a {
-	padding-bottom:10px;
+	padding-bottom:11px;
+	padding-top:11px;
+	border-radius:  15px 15px 0 0;
+	border-bottom: 0;
+	border-right: 2px solid #81b6df;
 }
-
-.tabbable .nav {
-	margin-bottom: 7px;
-}
-
 
 .nav-tabs {
-	border-bottom: 1px solid #e95e27;
+	border-bottom: 0px;
 }
 
 .tab-content {
@@ -31,24 +36,17 @@
 	padding-left: 0px;
 }
 
-@media (max-width: 767px) { 
-	.tab_padding {
-		padding: 0 0;
-	}
-	.text_content {
-		width: 80%;
-	}
-	.tabbable .nav-tabs li a {
-		border-radius: 0;
-		width:120px;
-	}
-	.tabbable .nav-tabs li a, .tabbable .nav-tabs li.active a {
-		border-left:0;
-	}
-}
-
 @media (max-width: 480px) {
-	.tabbable .nav-tabs li a {
-		width:90px;
+	.nav-tabs > li {
+		padding: 0 0 5px 5px;
+		width:auto;
 	}
+	.tabbable .nav-tabs li.active a {
+		border-radius:  15px;
+		padding: 9px 15px 6px;
+		border-bottom: 2px solid #81b6df;
+	}
+	.tabbable .nav-tabs li a {
+	}
+
 }

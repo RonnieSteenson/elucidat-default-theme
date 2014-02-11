@@ -31,24 +31,24 @@
 
                 <div id="help_buttons">
                     
-                    <a id="menu_toggle" href="#project_navigation" data-toggle="dropdown" data-target="#project_navigation"><i class="icon-home icon-theme"></i> <span id="menu_toggle_text">Menu</span></a>
+                    <a id="menu_toggle" href="#project_navigation" data-toggle="dropdown" data-target="#project_navigation"><i class="theme-icon-menu"></i> <span id="menu_toggle_text">Menu</span></a>
 
-                    <a id="resource_toggle" href="#resourceContent" role="button" class="hidden-phone" data-toggle="modal"><i class="icon-file icon-theme"></i> <span id="resource_toggle_text">Resources</span></a>
+                    <a id="resource_toggle" href="#resourceContent" role="button" class="hidden-phone" data-toggle="modal"><i class="theme-icon-folder-open"></i> <span id="resource_toggle_text">Resources</span></a>
                     
-                    <a id="help_toggle" href="#helpContent" role="button" class="hidden-phone" data-toggle="modal"><i class="icon-info icon-theme"></i> <span id="help_toggle_text">Help</span></a>
+                    <a id="help_toggle" href="#helpContent" role="button" class="hidden-phone" data-toggle="modal"><i class="theme-icon-help-circled-alt"></i> <span id="help_toggle_text">Help</span></a>
 
                 </div>
 
                 <ul class="pager">
 
                     <li class="{previous.disabled}" data-role="pager-previous">
-                        <a href="{previous.url}" title="Back to the previous page"><i class="icon-chevron-left icon-white"></i></a>
+                        <a href="{previous.url}" title="Back to the previous page"><i class="theme-icon-left-open"></i></a>
                     </li>
                     
                     <li class="status" data-role="pager-status">{navigation.current}/{navigation.total}</li>
                     
                     <li class="{next.disabled}" data-role="pager-next">
-                        <a href="{next.url}" class="next" title="Progress to the next page"><i class="icon-chevron-right icon-white"></i></a>
+                        <a href="{next.url}" class="next" title="Progress to the next page"><i class="theme-icon-right-open"></i></a>
                     </li>
 
                 </ul>
@@ -73,8 +73,8 @@
 
         <!-- Modal -->
         <div id="helpContent" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="helpContentLabel" aria-hidden="true">
-            <div class="modal-container">
-                <div class="modal-outer">
+            <div class="modal-container" id="helpContent_container">
+                <div class="modal-outer" id="helpContent_outer">
                     <div class="modal-inner">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                         <h3 id="helpContentLabel">Help</h3>
@@ -90,8 +90,8 @@
 
             <!-- Modal 2 -->
         <div id="resourceContent" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resourceContentLabel" aria-hidden="true">
-            <div class="modal-container">
-                <div class="modal-outer">
+            <div class="modal-container" id="resourceContent_container">
+                <div class="modal-outer" id="resourceContent_outer">
                     <div class="modal-inner">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                         <h3 id="resourceContentLabel">Resources</h3>
@@ -99,7 +99,7 @@
                         <div  id="resource_content" class="modal_text">
                             <p>You can use this area to give the Learner downloadable documents to complement their course.</p>
                         </div>
-                        <div id="resource_navigation" class="modal_text">
+                        <div id="resource_navigation">
                             <ul>
                             {resources.html}
                             </ul>
@@ -111,6 +111,6 @@
             </div>
         </div>
 
-
+        <div class="image_credit" id="image_credit_bg"><a href="http://www.4freephotos.com/" title="Image by 4freephotos.com" target="_blank">Image by 4freephotos.com</a></div>
     </div>
 

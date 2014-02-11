@@ -38,29 +38,31 @@
 		"text": true
 	},
 	"#helpContentLabel": {
-		"text": true
-	},
-	"#help_content": {
-		"text": {
-			"html": true
-		}
+		"text": true,
+		"color": true
 	},
 	"#resourceContentLabel": {
-		"text": true
-	},
-	"#resource_content": {
-		"text": {
-			"html": true
-		}
+		"text": true,
+		"color": true
 	},
 	".continue_button": {
 		"text": true
 	},
-	".modal-inner": {
+	".modal-container": {
+		"border": {
+			"rounding": true
+		},
+		"color": true,
 		"image": {
+			"act-on": ".modal-outer",
 			"show-placeholder": false
 		},
 		"inset": true
+	},
+	".modal_text": {
+		"text": {
+			"html": true
+		}
 	},
 	".content_wrapper": {
 		"color": true,

@@ -12,24 +12,6 @@
 			"padding": false
 		}
 	},
-	".modal-inner": {
-		"image": {
-			"show-placeholder": false
-		},
-		"inset": true
-	},
-	".popup_text": {
-		"text": {
-			"html": true
-		},
-		"resize": true
-	},
-	".modal-inner h3": {
-		"text": true
-	},
-	".continue_button": {
-		"text": true
-	},
 	".video_player": {
 		"video": true
 	}
