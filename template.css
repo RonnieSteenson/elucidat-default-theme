@@ -860,8 +860,8 @@ html .carousel_control.hide {
 		left:-500px;
 	}
 	#page_content {
-		padding-left: 3px;
-		padding-right: 3px;
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 
 	#page_content .content_wrapper_inner {
