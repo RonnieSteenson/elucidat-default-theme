@@ -1,7 +1,9 @@
 {
 	"body": {
 		"font":true,
-		"image": true,
+		"image": {
+			"show-placeholder": false
+		},
 		"color": true,
 		"animation": true
 	},
