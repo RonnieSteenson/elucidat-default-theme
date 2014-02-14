@@ -4,3 +4,20 @@
     background-image: url(images/eLearningart_steve.png);
     background-position: 130% 0;
 }
+@media (max-width: 979px) {
+	.content_wrapper_inner {
+	    background-position: 170% 0;
+	}
+}
+@media (max-width: 767px) { 
+	.content_wrapper_inner {
+		background-position: 120% 35px;
+		background-size: 50%;
+	}
+}
+@media (max-width: 480px) { 
+	.content_wrapper_inner {
+		background-position: 120% 60px;
+		background-size: 40%;
+	}
+}

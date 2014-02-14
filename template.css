@@ -849,7 +849,7 @@ html .carousel_control.hide {
 @media (max-width: 480px) {
 	/*body:before { content: "Rule: max-width: 480px; "; }*/
 	.answer, .sortable_item {    
-		width: 235px;
+		width: 195px;
 	}
 	.popup_text {
 		width: auto;

@@ -6,6 +6,7 @@
 
 .content_wrapper_inner {
     background-image: url(images/eLearningart_Lisa_aha.png);
+    background-position: 100% -5%;
 }
 
 @media (max-width: 767px) { 
@@ -13,11 +14,18 @@
     .text_caption {
         width:60%;
     }
+    .content_wrapper_inner {
+        background-position: 170% 80px;
+    }
 }
 
 @media (max-width: 480px) {
     /*body:before { content: "Rule: max-width: 480px; "; }*/
     .text_caption {
         width:90%;
+    }
+    .content_wrapper_inner {
+        background-position: 100% 100px;
+        background-size: 90%;
     }
 }
