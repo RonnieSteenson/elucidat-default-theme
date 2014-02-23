@@ -18,6 +18,7 @@
     src: url('../font/fontello.svg?25176587#fontello') format('svg');
   }
 }
+
 */
  
  [class^="theme-icon-"]:before, [class*=" theme-icon-"]:before {
