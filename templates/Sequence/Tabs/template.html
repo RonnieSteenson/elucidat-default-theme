@@ -10,16 +10,16 @@
                     <div class="tabbable tabs-left">
 
                         <div class="add-option-template hide" data-parent="#tab_menu">
-                            <li id="tab_link_{id}">
-                                <a href="#tab_{id}" data-toggle="tab">Title of Section {number}</a>
+                            <li id="tab_link_{{element.id}}">
+                                <a href="#tab_{{element.id}}" data-toggle="tab">Title of Section {{element.number}}</a>
                             </li>
                         </div>
                         
                         <div class="add-option-template hide" data-parent="#tab_content">
-                            <div class="tab-pane hide" id="tab_{id}">
-                                <div class="tab-inner text_wrapper" id="text_{id}_inner">
-                                    <div id="text_content_{id}" class="text_content">
-                                        <p>Text Section {number}: This is an ideal place to enrich your learner's understanding of your topic. Enter as much or as little text here as you want. <br />Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            <div class="tab-pane hide" id="tab_{{element.id}}">
+                                <div class="tab-inner text_wrapper" id="text_{{element.id}}_inner">
+                                    <div id="text_content_{{element.id}}" class="text_content">
+                                        <p>Text Section {{element.number}}: This is an ideal place to enrich your learner's understanding of your topic. Enter as much or as little text here as you want. <br />Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
                                 </div>
                             </div>

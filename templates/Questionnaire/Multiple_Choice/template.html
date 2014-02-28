@@ -11,10 +11,10 @@
                     <div class="questionnaire_inner" id="questionnaire_inner">
                         
                         <div class="add-option-template hide">
-                            <div id="answer_{id}" class="answer">
-                                <span class="input">checkbox:checkbox_{id}</span>
+                            <div id="answer_{{element.id}}" class="answer">
+                                <span class="input">checkbox:checkbox_{{element.id}}</span>
                                 <i class="theme-icon-ok"></i>
-                                <label for="checkbox_{id}">Answer {number}</label>
+                                <label for="checkbox_{{element.id}}">Answer {{element.number}}</label>
                             </div>
                         </div>
                         <div id="answer_1" class="answer">
@@ -45,7 +45,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
 
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="incorrect_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="incorrect_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
                                 
                                 </div>
                                 
@@ -83,7 +83,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="partially_correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="partially_correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
                                 
                                 </div>
                                 

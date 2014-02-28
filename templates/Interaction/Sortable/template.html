@@ -10,9 +10,9 @@
 
                     <ol id="sort_menu" class="sortable_inner">
                         <div class="add-option-template hide">
-                            <li class="sortable_item" id="sortable_{id}">
+                            <li class="sortable_item" id="sortable_{{element.id}}">
                                 <span class="input"><i class="theme-icon-up-open"></i><i class="theme-icon-down-open"></i></span> 
-                                <span class="text" id="sortable_{id}_text">Option {number}</span>
+                                <span class="text" id="sortable_{{element.id}}_text">Option {{element.number}}</span>
                             </li>
                         </div>
                         <li class="sortable_item" id="sortable_1">
@@ -44,7 +44,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
 
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="incorrect_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="incorrect_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
                                 
                                 </div>
                                 
@@ -82,7 +82,7 @@
                                         <p><strong>This is an ideal place</strong> to give some helpful feedback. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                     </div>
 
-                                    <a href="{next.url}" id="partially_correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="partially_correct_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
                                 
                                 </div>
                                 

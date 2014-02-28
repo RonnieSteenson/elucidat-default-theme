@@ -10,16 +10,16 @@
                     <div class="accordion" id="accordion">
                         
                         <div class="add-option-template hide">
-                            <div class="accordion-group" id="accordian_item_{id}">
+                            <div class="accordion-group" id="accordian_item_{{element.id}}">
                                 <div class="accordion-heading">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{id}" id="accordian_collapse_heading_{id}">
-                                        Title of section {number}
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_{{element.id}}" id="accordian_collapse_heading_{{element.id}}">
+                                        Title of section {{element.number}}
                                     </a>
                                 </div>
-                                <div id="collapse_{id}" class="accordion-body collapse">
-                                    <div class="accordion-inner" id="accordian_inner_{id}">
-                                        <div class="accordion-image" id="accordian_image_{id}">
-                                            <div id="accordian_collapse_content_{id}" class="text_content">
+                                <div id="collapse_{{element.id}}" class="accordion-body collapse">
+                                    <div class="accordion-inner" id="accordian_inner_{{element.id}}">
+                                        <div class="accordion-image" id="accordian_image_{{element.id}}">
+                                            <div id="accordian_collapse_content_{{element.id}}" class="text_content">
                                                 <p>This is an ideal place to enrich your learner's understanding of your topic. Enter as much or as little text here as you want. <br />Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                             </div>
                                         </div>

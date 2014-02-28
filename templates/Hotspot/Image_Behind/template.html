@@ -8,27 +8,27 @@
                 </div>
                     
                 <div class="add-option-template hide" data-parent="#hotspot_wrapper">
-                    <a class="hotspot" id="hotspot{id}" data-toggle="modal" href="#hotspot_modal_{id}"><span class="title">Hotspot {number}</span></a>
+                    <a class="hotspot" id="hotspot{{element.id}}" data-toggle="modal" href="#hotspot_modal_{{element.id}}"><span class="title">Hotspot {{element.number}}</span></a>
                 </div>
 
                 <div class="add-option-template hide" data-parent="#hotspot_modal_wrapper">
 
-                    <div id="hotspot_modal_{id}" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_{id}_label" aria-hidden="true">
-                        <div class="modal-container" id="hotspot_modal_container_{id}">
-                            <div class="modal-outer" id="hotspot_modal_inner_{id}">
+                    <div id="hotspot_modal_{{element.id}}" data-backdrop="false" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_{{element.id}}_label" aria-hidden="true">
+                        <div class="modal-container" id="hotspot_modal_container_{{element.id}}">
+                            <div class="modal-outer" id="hotspot_modal_inner_{{element.id}}">
                                 <div class="modal-inner">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                                    <h3 id="hotspot_modal_{id}_label">Hotspot {number} title!</h3>
+                                    <h3 id="hotspot_modal_{{element.id}}_label">Hotspot {{element.number}} title!</h3>
                                 
                                     <div class="modal_text">
-                                        <div class="modal_text" id="hotspot_modal_{id}_text">
+                                        <div class="modal_text" id="hotspot_modal_{{element.id}}_text">
                                             <p><strong>This is an ideal place</strong> to give some helpful information. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                         </div>
 
-                                        <div class="video_player" id="hotspot_modal_{id}_video"></div>
+                                        <div class="video_player" id="hotspot_modal_{{element.id}}_video"></div>
                                     </div>
 
-                                    <a href="{next.url}" data-dismiss="modal" aria-hidden="true" class="continue_button" id="hotspot_modal_{id}_continue">Continue</a>
+                                    <a href="{{next.url}}" data-dismiss="modal" aria-hidden="true" class="continue_button" id="hotspot_modal_{{element.id}}_continue">Continue</a>
 
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
 
                                         <div class="video_player" id="hotspot_modal_1_video"></div>
                                     </div>
-                                    <a href="{next.url}" id="hotspot_modal_1_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="hotspot_modal_1_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
 
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
 
                                         <div class="video_player" id="hotspot_modal_2_video"></div>
                                     </div>
-                                    <a href="{next.url}" id="hotspot_modal_2_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
+                                    <a href="{{next.url}}" id="hotspot_modal_2_continue" data-dismiss="modal" aria-hidden="true" class="continue_button">Continue</a>
 
                                 </div>
                             </div>

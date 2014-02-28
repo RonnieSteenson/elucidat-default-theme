@@ -15,11 +15,11 @@
             <div class="content_width">
 
                 <div id="page_title">
-                    <h1 data-role="page.name">{page.name}</h1>
+                    <h1 data-role="page.name">{{page.name}}</h1>
                 </div>
 
                 <div id="page_outside">
-                    {page.html}
+                    {{page.html}}
                 </div>
             
             </div>
@@ -41,14 +41,14 @@
 
                 <ul class="pager">
 
-                    <li class="{previous.disabled}" data-role="pager-previous">
-                        <a href="{previous.url}" title="Back to the previous page"><i class="theme-icon-left-open"></i></a>
+                    <li class="{{previous.disabled}}" data-role="pager-previous">
+                        <a href="{{previous.url}}" title="Back to the previous page"><i class="theme-icon-left-open"></i></a>
                     </li>
                     
-                    <li class="status" data-role="pager-status">{navigation.current}/{navigation.total}</li>
+                    <li class="status" data-role="pager-status">{{navigation.current}}/{{navigation.total}}</li>
                     
-                    <li class="{next.disabled}" data-role="pager-next">
-                        <a href="{next.url}" class="next" title="Progress to the next page"><i class="theme-icon-right-open"></i></a>
+                    <li class="{{next.disabled}}" data-role="pager-next">
+                        <a href="{{next.url}}" class="next" title="Progress to the next page"><i class="theme-icon-right-open"></i></a>
                     </li>
 
                 </ul>
@@ -64,7 +64,7 @@
             <div id="scroller">
                 <div id="scroller_inner">
                     <ul data-role="navigation">
-                        {navigation.html}
+                        {{navigation.html}}
                     </ul>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         </div>
                         <div id="resource_navigation">
                             <ul>
-                            {resources.html}
+                            {{resources.html}}
                             </ul>
                         </div>
 
