@@ -3,7 +3,7 @@ Elucidat Easy-to-use Responsive Theme
 
 
 
-Default html theme for the Elucidat Mobile E-learning Rapid Authoring Tool: www.elucidat.com.
+Default html theme for the [Elucidat E-learning Authoring tool](https://www.elucidat.com).
 
 
 
